@@ -22,3 +22,40 @@ content_engine/
 ├── requirements.txt              # Dependencies list
 ├── app.py                        # Streamlit app for chatbot interaction
 └── README.md                     # Documentation and usage guide
+
+
+---
+
+## Features
+
+1. **PDF Processing**:
+   - Extracts text from PDF documents for analysis and embedding generation.
+
+2. **Embedding Generation**:
+   - Generates embeddings using OpenAI or other configured embedding models.
+
+3. **Vector Store Management**:
+   - Stores embeddings in a vector database for efficient similarity searches.
+
+4. **Query Engine**:
+   - Configures and executes queries on the vector database.
+
+5. **Chatbot Interface**:
+   - Provides a user-friendly chatbot in a messaging app style using `Streamlit`.
+
+---
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd content_engine
+
+
+## Run the Streamlit Chatbot
+streamlit run app.py
+
+## Main Orchestrator
+python main.py
+
