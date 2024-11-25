@@ -1,0 +1,7 @@
+streamlit
+sentence-transformers
+chromadb
+gpt4all
+PyPDF2
+pdfplumber
+numpy
